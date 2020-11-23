@@ -5,10 +5,10 @@ def fizzbuzz(int)
   if int % 3 == 0 
     return "Fizz"
   elsif int % 5 == 0
-    print "Buzz"
+    return "Buzz"
   elsif int % 15 == 0
-    print "FizzBuzz"
+    return "FizzBuzz"
   else int % 4 == nil
-    prints "nil"
+    return "nil"
   end
 end

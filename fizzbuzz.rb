@@ -10,4 +10,5 @@ def fizzbuzz(int)
     puts "FizzBuzz"
   else int % 4 == nil
     puts "nil"
+  end
 end

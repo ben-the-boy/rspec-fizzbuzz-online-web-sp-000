@@ -4,9 +4,9 @@
 def fizzbuzz(int)
   if int % 3 == 0 
     return "Fizz"
-  if int % 5 == 0
+  elsif int % 5 == 0
     return "Buzz"
-  if int % 15 == 0
+  elsif int % 15 == 0
     return "FizzBuzz"
   else int % 4 == nil
     return "nil"

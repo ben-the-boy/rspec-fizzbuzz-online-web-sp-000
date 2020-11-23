@@ -3,11 +3,11 @@
 
 def fizzbuzz(int)
   if int % 3 == 0 
-    prints "Fizz"
+    print "Fizz"
   elsif int % 5 == 0
-    prints "Buzz"
+    print "Buzz"
   elsif int % 15 == 0
-    prints "FizzBuzz"
+    print "FizzBuzz"
   else int % 4 == nil
     prints "nil"
   end
